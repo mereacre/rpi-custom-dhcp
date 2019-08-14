@@ -155,3 +155,15 @@ sudo systemctl status dnsmasq
 1. [rPI AP Configuration](https://github.com/raspberrypi/documentation/blob/master/configuration/wireless/access-point.md)
 
 2. [Node DCHP](https://github.com/infusion/node-dhcp)
+
+### Various testing
+
+Netcat server:
+```sh
+nc -n -v -l -p 5555 -e /bin/bash
+```
+
+Netcat client:
+```sh
+nc -nv 192.168.10.10 5555
+```
