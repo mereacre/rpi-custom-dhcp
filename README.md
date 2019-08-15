@@ -7,6 +7,7 @@ Install the hostapd and freeradius daemons:
 ```sh
 sudo apt-get install hostapd
 sudo apt-get install freeradius
+sudo apt-get install freeradius-rest
 ```
 
 ## DHCPCD
